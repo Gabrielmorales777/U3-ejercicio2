@@ -1,1 +1,3 @@
 # U3-ejercicio2
+Ejercicio de **Programación Orientada a Objetos en Java** que modela un sistema de gestión de empleados y salarios aplicando el principio de **encapsulamiento**. El salario de cada empleado es un dato confidencial: está declarado como privado y no puede asignarse directamente desde otras clases, sino únicamente a través del método `actualizarSalario(double porcentajeAumento)`, que valida que el porcentaje sea positivo y respete el tope definido por la regla de negocio. El cálculo del nuevo salario permanece oculto en un método privado, exponiendo solo los resultados mediante getters y un método de información general.
+![U3 ejercicio2](U3%20ejercicio2.png)
